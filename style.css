@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+.container{
+    display:grid;
+    grid-template-rows: 40% 15% 55%;
+    width: 50%;
+    margin: 2% auto;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: rgb(211, 64, 64);
+}
+
+h3, .profile p{
+    color: grey;
+}
+
+.profile p{
+    padding: 0 25px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.circle{
+    border-radius: 50%;
+    width:130px;
+    height: 130px;
+    border: 2px solid rgb(231, 231, 231);
+    margin: 20px auto 0 auto;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(211, 64, 64);
+    color: white;
+    padding: 15px 0;
+    margin: 0 35%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.social{
+    display: flex;
+    background-color: rgb(255, 253, 253);
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;  
+}
+
+.list{
+    display:flex;
+    align-items: center;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+li i{
+    vertical-align: top;
+    position: relative;
+    margin-top: 6%;
+    margin-left:0.7%;
+}
+
+li p{
+    vertical-align: bottom;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-size: 1.2em;
+}
+
+.fab{
+    font-size: 25px;
+}
+
+.movies{
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row1{
+    text-align: center;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 5px;
+}
+
+.row4{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 5px;
+}
+
+.text1{
+    display: grid;
+    grid-template-rows: 20% auto;
+    text-align: center;
+}
+
+.text2{
+    display: grid;
+    grid-template-rows: 20% auto;
+    text-align: center; 
+}
+
+.text3{
+    display: grid;
+    grid-template-rows: 20% auto;
+    text-align: center; 
+}
+
+.text1 p{
+    text-align: justify;
+    line-height: 1.8;
+    padding: 0 20px 0 10px;
+}
+
+.text2 p{
+    text-align: justify;
+    line-height: 1.8;
+    padding: 0 20px 0 10px;
+}
+
+.text3 p{
+    text-align: justify;
+    line-height: 1.8;
+    padding: 0 20px 0 10px;
+}
+
+.image1, .image2, .image3{
+    padding: 0 30px;
+    width: 140px;
+    height: auto;
+}
